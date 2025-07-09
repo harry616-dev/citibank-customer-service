@@ -30,6 +30,29 @@
             padding: 1rem 0;
             text-align: center;
         }
+ .header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+        
+.talk-to-us {
+  background-color: #3498db;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
 
         .logo {
             font-size: 1.5rem;
@@ -133,11 +156,19 @@
     </style>
 </head>
 <body>
-    <header>
+    <!-- <header>
         <div class="container">
             <div class="logo">Citi Bank</div>
         </div>
-    </header>
+    </header> -->
+    <header>
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">Citi Bank Customer Service</div>
+        <a href="tel:+1-833-319-6348" class="talk-to-us">Talk to us: +1-833-319-6348</a>
+      </div>
+    </div>
+  </header>
 
     <main>
         <div class="container">
